@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "spoonacular_api"
+version = "0.1.0"
+description = "An API client for the spoonacular API to perform recipe search and create shopping lists."
+authors = ["Aimee Vichiennet"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
